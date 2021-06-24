@@ -27,6 +27,8 @@ public abstract class Carro {
 
     }
 
+
+
     public void mostrarCaracteristicas(){
         System.out.print("Tipo De Combustible: " + this.getCombustible());
         System.out.print(" Cantidad De Galones: " + this.getCantidadGalones());
